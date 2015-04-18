@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TheMovieDb - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="TheMovieDb.html">TheMovieDb</a></li></ul><h3>Global</h3><ul><li><a href="global.html#airingTodayTVShows">airingTodayTVShows</a></li><li><a href="global.html#getCreditsOfMovie">getCreditsOfMovie</a></li><li><a href="global.html#getCreditsOfTVShow">getCreditsOfTVShow</a></li><li><a href="global.html#getEpisodeOfTVShow">getEpisodeOfTVShow</a></li><li><a href="global.html#getImagesOfMovie">getImagesOfMovie</a></li><li><a href="global.html#getImagesOfTVShow">getImagesOfTVShow</a></li><li><a href="global.html#getMovie">getMovie</a></li><li><a href="global.html#getSeasonOfTVShow">getSeasonOfTVShow</a></li><li><a href="global.html#getSimilarMovies">getSimilarMovies</a></li><li><a href="global.html#getSimilarTVShows">getSimilarTVShows</a></li><li><a href="global.html#getTVShow">getTVShow</a></li><li><a href="global.html#getVideosOfMovie">getVideosOfMovie</a></li><li><a href="global.html#getVideosOfTVShow">getVideosOfTVShow</a></li><li><a href="global.html#onTheAirTVShows">onTheAirTVShows</a></li><li><a href="global.html#popularMovies">popularMovies</a></li><li><a href="global.html#popularTVShows">popularTVShows</a></li><li><a href="global.html#searchMovies">searchMovies</a></li><li><a href="global.html#searchTVShows">searchTVShows</a></li><li><a href="global.html#setLanguage">setLanguage</a></li><li><a href="global.html#topRatedMovies">topRatedMovies</a></li><li><a href="global.html#topRatedTVShows">topRatedTVShows</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">TheMovieDb</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        TheMovieDb
+        </h2>
+        
+            <div class="class-description">TheMovieDb</div>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+    
+    <h2>Constructor</h2>
+    
+
+    <h4 class="name" id="TheMovieDb"><span class="type-signature"></span>new TheMovieDb<span class="signature">(apiKey, language<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>apiKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">The TMDb api key</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>language</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">The language to use in the request</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-license">License:</dt>
+    <dd class="tag-license"><ul class="dummy"><li>BSD</li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="themoviedb.js.html">themoviedb.js</a>, <a href="themoviedb.js.html#line19">line 19</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>var api = new TheMovieDb('API_KEY', 'en');</code></pre>
+
+
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-beta3</a> on Sat Apr 18 2015 19:00:16 GMT-0400 (EDT) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

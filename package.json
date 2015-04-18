@@ -1,0 +1,46 @@
+{
+    "name": "themoviedb",
+    "description": "A node.js module with support for both callbacks and promises to provide access to the TMDb API",
+    "version": "0.1.0",
+    "homepage": "https://github.com/chrisenytc/themoviedb",
+    "author": {
+        "name": "Christopher EnyTC",
+        "email": "chrisenytc@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/chrisenytc/themoviedb.git"
+    },
+    "bugs": {
+        "url": "https://github.com/chrisenytc/themoviedb/issues"
+    },
+    "licenses": [{
+        "type": "BSD",
+        "url": "https://github.com/chrisenytc/themoviedb/blob/master/LICENSE"
+    }],
+    "main": "lib/themoviedb",
+    "engines": {
+        "node": ">= 0.10.36",
+        "npm": ">=1.4.28"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "dependencies": {
+        "bluebird": "^2.9.20",
+        "superagent": "^1.1.0",
+        "underscore": "^1.8.2"
+    },
+    "devDependencies": {
+        "chai": "~2.1.2",
+        "minami": "^1.1.0",
+        "mocha": "~2.2.1"
+    },
+    "keywords": [
+        "themoviedb",
+        "movies",
+        "tv shows",
+        "tv series",
+        "api"
+    ]
+}
